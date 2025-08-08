@@ -8,6 +8,8 @@ import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
 const Stack = createStackNavigator();
 
+//hellooo
+
 function App() {
   return (
     <GestureHandlerRootView style={{flex: 1}}>
@@ -15,7 +17,7 @@ function App() {
         <NavigationContainer>
           <Stack.Navigator
             screenOptions={{
-              headerShown: true,
+              headerShown: false,
             }}
           >
             <Stack.Screen name="Map" component={MapScreen} />
