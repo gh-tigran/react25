@@ -18,8 +18,9 @@ function App() {
               headerShown: true,
             }}
           >
-             <Stack.Screen name="Map" component={MapScreen} />
+            <Stack.Screen name="Map" component={MapScreen} />
             <Stack.Screen name="App2" component={MapScreen} />
+            <Stack.Screen name="App" component={MapScreen} />
             <Stack.Screen name="CountryDetail" component={CountryScreen} />
           </Stack.Navigator>
         </NavigationContainer>
